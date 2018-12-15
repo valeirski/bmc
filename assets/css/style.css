@@ -77,6 +77,7 @@ li > i {
   background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
   background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
   margin-top: 40px;
+  margin-bottom: 80px;
 }
 .hr2 {
   border: 0;

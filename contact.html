@@ -68,7 +68,7 @@
     <hr class="hr1">
 </div>
 <div class="container">
-    <div class="row justify-content-md-center">
+    <div class="row">
         <form name="myForm" class="form" action="./contact.php" onsubmit="return validateForm()" method="POST"
               role="form">
             <div class="form-group">
@@ -107,7 +107,9 @@
                               placeholder="Uw bericht." name="message"></textarea>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="text-right">
+                <button type="submit" class="btn btn-outline-secondary">Verstuur</button>
+            </div>
         </form>
     </div>
 </div>
